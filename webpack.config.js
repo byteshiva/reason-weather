@@ -16,6 +16,7 @@ module.exports = {
     }),
   ],
   devServer: {
+    host: '0.0.0.0',
     compress: true,
     contentBase: outputDir,
     port: process.env.PORT || 8000,
